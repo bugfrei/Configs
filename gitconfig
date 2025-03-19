@@ -45,6 +45,7 @@
     cfgl = config --edit
     ghcfg = !vim ~/.config/gh/config.yml
 	pr = pull --rebase
+    notp = log --oneline --branches --not --remotes
 
 [remote]
     pushDefault = origin
