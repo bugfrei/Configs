@@ -43,6 +43,7 @@
     cfg = config --global --edit
     cfgl = config --edit
     ghcfg = !vim ~/.config/gh/config.yml
+	pr = pull --rebase
 
 [remote]
     pushDefault = origin
