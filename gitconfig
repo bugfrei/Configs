@@ -10,7 +10,8 @@
     cm = commit --amend -m
     out = !git checkout $(git branch | fzf)
     test = !ii .
-    s = status
+    s = status -s
+    st = statu
     sl = !gh sl
     jose = !gh jose
     ich = !gh Carsten
